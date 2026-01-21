@@ -18,7 +18,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 388.13560247421265, 715.2542543411255, 69.0, 22.0 ],
+                    "patching_rect": [ 329.0, 682.0, 69.0, 22.0 ],
                     "text": "hello world!"
                 }
             },
@@ -28,7 +28,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 353.3898389339447, 779.6610355377197, 32.0, 22.0 ],
+                    "patching_rect": [ 342.0, 765.0, 32.0, 22.0 ],
                     "text": "print"
                 }
             },
@@ -72,7 +72,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 715.3090876340866, 524.5762836933136, 152.94118285179138, 20.0 ],
+                    "patching_rect": [ 732.0, 520.0, 152.94118285179138, 20.0 ],
                     "text": "<live.gain~>"
                 }
             },
@@ -83,8 +83,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 715.3090876340866, 685.1610331535339, 152.94118285179138, 34.0 ],
-                    "presentation_linecount": 10,
+                    "patching_rect": [ 691.0, 690.6610331535339, 152.94118285179138, 34.0 ],
                     "text": "<ezdac> addresses the physical outputs 1 + 2"
                 }
             },
@@ -94,7 +93,7 @@
                     "maxclass": "ezdac~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 654.2373037338257, 679.6610331535339, 45.0, 45.0 ]
+                    "patching_rect": [ 635.4873037338257, 685.1610331535339, 45.0, 45.0 ]
                 }
             },
             {
@@ -542,14 +541,6 @@
         ],
         "parameters": {
             "obj-40": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
