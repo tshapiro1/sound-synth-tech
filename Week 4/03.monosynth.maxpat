@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1597.0, 951.0 ],
+        "rect": [ 37.0, 77.0, 1594.0, 951.0 ],
         "boxes": [
             {
                 "box": {
@@ -30,7 +30,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 458.16994911432266, 250.71052432060242, 209.15033340454102, 34.0 ],
-                    "presentation_linecount": 4,
                     "text": "to add a point, click somewhere \nshift - click to delete a point"
                 }
             },
@@ -297,6 +296,14 @@
         ],
         "parameters": {
             "obj-2": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

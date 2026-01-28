@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1755.0, 85.0, 1650.0, 1272.0 ],
+        "rect": [ 34.0, 77.0, 1597.0, 951.0 ],
         "boxes": [
             {
                 "box": {
@@ -18,7 +18,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 899.1525638103485, 835.0, 241.5254294872284, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "freq. of control signal (sawtooth phasor)"
                 }
             },
@@ -85,7 +84,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 580.7407217025757, 905.0, 174.8148090839386, 89.0 ],
-                    "presentation_linecount": 33,
                     "text": "duty cycle (0-1. slants the waveform left or right), \nalters the timbre because the harmonics change with different slopes and sharp turns"
                 }
             },
@@ -118,8 +116,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 342.0, 905.0, 35.526315450668335, 48.0 ],
-                    "presentation_linecount": 3,
+                    "patching_rect": [ 342.0, 905.0, 36.0, 48.0 ],
                     "text": "freq. in hertz"
                 }
             },
@@ -142,7 +139,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1740.7894570827484, 88.0, 257.0, 117.0 ],
-                    "presentation_linecount": 8,
                     "text": "pink noise \nequal power across all octives \nhigher freq, decline at a rate of -3db per octave \n \nreference signal for mixing in audio production (closer to the human ear's response as a result of measuring in octaves)"
                 }
             },
@@ -154,7 +150,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1392.0, 88.0, 257.0, 48.0 ],
-                    "presentation_linecount": 3,
                     "text": "white noise \nequal power (aplitude) across all freq. values \n"
                 }
             },
@@ -166,7 +161,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1052.6803194880486, 88.0, 197.0, 75.0 ],
-                    "presentation_linecount": 5,
                     "text": "square wave form \nodd harmonics \nhigh harmonics roll off gradually \nbasis for harmonic distortion \nbasis for an electric guitar sound"
                 }
             },
@@ -216,13 +210,13 @@
             {
                 "box": {
                     "id": "obj-76",
-                    "linecount": 3,
+                    "linecount": 2,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 58.21052598953247, 983.0, 50.0, 50.0 ],
-                    "text": "0 2 0.02963"
+                    "patching_rect": [ 58.21052598953247, 983.0, 50.0, 36.0 ],
+                    "text": "1 2 0.14"
                 }
             },
             {
@@ -258,7 +252,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "list", "list" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 34.21052598953247, 905.0, 98.0, 50.0 ],
+                    "patching_rect": [ 34.21052598953247, 904.0, 98.0, 50.0 ],
                     "rows": 3
                 }
             },
@@ -727,7 +721,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 222.01540851593018, 396.91534304618835, 111.84210419654846, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "<spectroscope~>"
                 }
             },
