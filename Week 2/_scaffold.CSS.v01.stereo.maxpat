@@ -13,11 +13,31 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 15.789472997188568, 159.02439403533936, 117.0, 22.0 ],
+                    "text": "lg.random.notes.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 15.789472997188568, 124.56139808893204, 79.0, 22.0 ],
+                    "text": "lg.midi.in.v01"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 15.294118285179138, 88.23529779911041, 95.0, 22.0 ],
+                    "patching_rect": [ 15.789472997188568, 88.30408972501755, 95.0, 22.0 ],
                     "text": "TS.sound.in.v01"
                 }
             },
@@ -27,7 +47,7 @@
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 15.294118285179138, 51.764708042144775, 103.0, 22.0 ],
+                    "patching_rect": [ 15.789472997188568, 52.04678136110306, 103.0, 22.0 ],
                     "text": "TS.sound.out.v01"
                 }
             },
@@ -51,12 +71,23 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-1",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 305.98475366830826, 145.45454120635986, 149.7326159477234, 34.0 ],
+                                    "text": "option + click on an object to bring up the manual"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-16",
                                     "linecount": 3,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 305.85106164216995, 82.6666647195816, 150.0, 48.0 ],
+                                    "patching_rect": [ 305.85106164216995, 82.43468824028969, 150.0, 48.0 ],
                                     "text": "shift - ctrl - e: encapsulate the selected objects into it's own subpatch"
                                 }
                             },
@@ -67,18 +98,17 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 75.41666486859322, 198.81657314300537, 311.7021254301071, 34.0 ],
+                                    "patching_rect": [ 9.625668168067932, 262.56683725118637, 311.7021254301071, 34.0 ],
                                     "text": "This is an example of a subpatch - it's loaded into an object box with the name p - it is therefore local"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
                                     "id": "obj-12",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 305.85106164216995, 45.744680523872375, 150.0, 20.0 ],
+                                    "patching_rect": [ 305.85106164216995, 48.93011002242565, 150.0, 20.0 ],
                                     "saved_attribute_attributes": {
                                         "textcolor": {
                                             "expression": "themecolor.live_prelisten"
@@ -151,7 +181,7 @@
                         ],
                         "lines": []
                     },
-                    "patching_rect": [ 15.294118285179138, 14.705882966518402, 67.0, 22.0 ],
+                    "patching_rect": [ 15.789472997188568, 14.61988240480423, 67.0, 22.0 ],
                     "text": "p shortcuts"
                 }
             }
