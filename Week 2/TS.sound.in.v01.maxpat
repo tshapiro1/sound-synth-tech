@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1597.0, 951.0 ],
+        "rect": [ 39.0, 111.0, 1597.0, 951.0 ],
         "boxes": [
             {
                 "box": {
@@ -66,18 +66,31 @@
             },
             {
                 "box": {
+                    "clipheight": 91.0,
                     "data": {
-                        "clips": []
+                        "clips": [
+                            {
+                                "absolutepath": "C:\\Users\\tedst\\OneDrive\\Desktop\\sound-synth-tech\\Week 6\\synth-tech-media-master\\synth-tech-media-master\\instrumental.samples\\CTp-ord-A3-mf.aif",
+                                "filename": "CTp-ord-A3-mf.aif",
+                                "filekind": "audiofile",
+                                "id": "u671000754",
+                                "selection": [ 0.0, 1.0 ],
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            }
+                        ]
                     },
                     "id": "obj-21",
                     "maxclass": "playlist~",
-                    "mode": 0,
+                    "mode": "basic",
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 430.0, 94.0, 150.0, 92.0 ],
-                    "quality": 0,
+                    "quality": "basic",
                     "saved_attribute_attributes": {
                         "candicane2": {
                             "expression": ""
@@ -186,7 +199,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 820.0, 133.0, 150.0, 34.0 ],
-                    "presentation_linecount": 2,
                     "text": "make a single bigger or smaller (less loud here)"
                 }
             },
