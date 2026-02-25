@@ -9,8 +9,104 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 39.0, 111.0, 1597.0, 951.0 ],
+        "rect": [ 1755.0, 85.0, 1650.0, 1272.0 ],
         "boxes": [
+            {
+                "box": {
+                    "clipheight": 29.666666666666668,
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "C:\\Users\\tedst\\Downloads\\683259__saha213131__goat.mp3",
+                                "filename": "683259__saha213131__goat.mp3",
+                                "filekind": "audiofile",
+                                "id": "u951000714",
+                                "selection": [ 0.0, 1.0 ],
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            },
+                            {
+                                "absolutepath": "C:\\Users\\tedst\\Downloads\\607245__d4xx__chicken.wav",
+                                "filename": "607245__d4xx__chicken.wav",
+                                "filekind": "audiofile",
+                                "id": "u431000709",
+                                "selection": [ 0.0, 1.0 ],
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            },
+                            {
+                                "absolutepath": "C:\\Users\\tedst\\Downloads\\517132__wdomino__woofbig2.wav",
+                                "filename": "517132__wdomino__woofbig2.wav",
+                                "filekind": "audiofile",
+                                "id": "u832000703",
+                                "selection": [ 0.0, 1.0 ],
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            }
+                        ]
+                    },
+                    "id": "obj-33",
+                    "maxclass": "playlist~",
+                    "mode": "basic",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 438.0, 104.0, 150.0, 92.0 ],
+                    "quality": "basic",
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 636.0, 44.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 503.0, 28.0, 35.0, 22.0 ],
+                    "text": "clear"
+                }
+            },
             {
                 "box": {
                     "id": "obj-27",
@@ -62,58 +158,6 @@
                     "numoutlets": 0,
                     "patching_rect": [ 594.0, 94.0, 150.0, 20.0 ],
                     "text": "<playlist~>"
-                }
-            },
-            {
-                "box": {
-                    "clipheight": 91.0,
-                    "data": {
-                        "clips": [
-                            {
-                                "absolutepath": "C:\\Users\\tedst\\OneDrive\\Desktop\\sound-synth-tech\\Week 6\\synth-tech-media-master\\synth-tech-media-master\\instrumental.samples\\CTp-ord-A3-mf.aif",
-                                "filename": "CTp-ord-A3-mf.aif",
-                                "filekind": "audiofile",
-                                "id": "u671000754",
-                                "selection": [ 0.0, 1.0 ],
-                                "loop": 1,
-                                "content_state": {
-                                    "loop": 1
-                                }
-                            }
-                        ]
-                    },
-                    "id": "obj-21",
-                    "maxclass": "playlist~",
-                    "mode": "basic",
-                    "numinlets": 1,
-                    "numoutlets": 5,
-                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 430.0, 94.0, 150.0, 92.0 ],
-                    "quality": "basic",
-                    "saved_attribute_attributes": {
-                        "candicane2": {
-                            "expression": ""
-                        },
-                        "candicane3": {
-                            "expression": ""
-                        },
-                        "candicane4": {
-                            "expression": ""
-                        },
-                        "candicane5": {
-                            "expression": ""
-                        },
-                        "candicane6": {
-                            "expression": ""
-                        },
-                        "candicane7": {
-                            "expression": ""
-                        },
-                        "candicane8": {
-                            "expression": ""
-                        }
-                    }
                 }
             },
             {
@@ -326,6 +370,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-17", 0 ]
                 }
@@ -340,12 +390,6 @@
                 "patchline": {
                     "destination": [ "obj-24", 5 ],
                     "source": [ "obj-20", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-24", 2 ],
-                    "source": [ "obj-21", 0 ]
                 }
             },
             {
@@ -370,6 +414,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-24", 2 ],
+                    "source": [ "obj-33", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-6", 0 ],
                     "source": [ "obj-4", 0 ]
                 }
@@ -378,6 +428,12 @@
                 "patchline": {
                     "destination": [ "obj-24", 3 ],
                     "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-33", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             }
         ],
