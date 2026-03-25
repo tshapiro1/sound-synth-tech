@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 78.0, 1597.0, 950.0 ],
+        "rect": [ 34.0, 79.0, 1597.0, 949.0 ],
         "boxes": [
             {
                 "box": {
@@ -283,7 +283,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 59.0, 107.0, 1000.0, 780.0 ],
+                        "rect": [ 235.0, 167.0, 1000.0, 780.0 ],
                         "visible": 1,
                         "boxes": [
                             {
@@ -350,7 +350,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 112.4999989271164, 131.57894611358643, 67.7368414402008, 22.0 ]
+                                    "patching_rect": [ 112.4999989271164, 135.29412192106247, 67.7368414402008, 22.0 ]
                                 }
                             },
                             {
@@ -478,7 +478,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 888.8888597488403, 481.4814656972885, 147.0, 22.0 ],
-                    "presentation_linecount": 4,
                     "text": "set high-freqs, mode draw"
                 }
             },
@@ -502,7 +501,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 699.2592363357544, 481.4814656972885, 144.0, 22.0 ],
-                    "presentation_linecount": 4,
                     "text": "set mid-freqs, mode draw"
                 }
             },
@@ -847,14 +845,6 @@
             "obj-20": [ "live.gain~", "live.gain~", 0 ],
             "obj-33": [ "live.gain~[1]", "live.gain~", 0 ],
             "obj-34": [ "live.gain~[2]", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
